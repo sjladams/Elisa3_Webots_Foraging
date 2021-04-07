@@ -1,0 +1,749 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  info [
+    "The model of the Elisa-3 robot"
+  ]
+  title "Elisa-3"
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.9997837438672539 -0.012982268097016402 0.016245806038325362 1.4417022990031274
+  position -0.587199386135893 2.4417724217498256 0.35760712420374463
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  luminosity 0
+}
+RectangleArena {
+  floorSize 2.5 2.5
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+}
+DEF ELISA3-0 Elisa3 {
+  translation -1 0 0
+  rotation 0 -1 0 0
+  name "Elisa3-0"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 0
+  receiver_channel 0
+}
+DEF ELISA3-1 Elisa3 {
+  translation -0.89 0 -0.165
+  rotation 0 -1 0 0
+  name "Elisa3-1"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+}
+DEF ELISA3-2 Elisa3 {
+  translation -0.835 0 -0.11
+  rotation 0 -1 0 0
+  name "Elisa3-2"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 2
+  receiver_channel 2
+}
+DEF ELISA3-3 Elisa3 {
+  translation -0.835 0 -0.055
+  rotation 0 -1 0 0
+  name "Elisa3-3"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 3
+  receiver_channel 3
+}
+DEF ELISA3-4 Elisa3 {
+  translation -0.835 0 0
+  rotation 0 -1 0 0
+  name "Elisa3-4"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 4
+  receiver_channel 4
+}
+DEF ELISA3-5 Elisa3 {
+  translation -0.835 0 0.055
+  rotation 0 -1 0 0
+  name "Elisa3-5"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 5
+  receiver_channel 5
+}
+DEF ELISA3-6 Elisa3 {
+  translation -0.835 0 0.11
+  rotation 0 -1 0 0
+  name "Elisa3-6"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 6
+  receiver_channel 6
+}
+DEF ELISA3-7 Elisa3 {
+  translation -0.89 0 0.165
+  rotation 0 -1 0 0
+  name "Elisa3-7"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 7
+  receiver_channel 7
+}
+DEF ELISA3-8 Elisa3 {
+  translation -0.945 0 0.165
+  rotation 0 -1 0 0
+  name "Elisa3-8"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 8
+  receiver_channel 8
+}
+DEF ELISA3-9 Elisa3 {
+  translation -1 0 0.165
+  rotation 0 -1 0 0
+  name "Elisa3-9"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 9
+  receiver_channel 9
+}
+DEF ELISA3-10 Elisa3 {
+  translation -1.055 0 0.165
+  rotation 0 -1 0 0
+  name "Elisa3-10"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 10
+  receiver_channel 10
+}
+DEF ELISA3-11 Elisa3 {
+  translation -1.11 0 0.165
+  rotation 0 -1 0 0
+  name "Elisa3-11"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 11
+  receiver_channel 11
+}
+DEF ELISA3-44 Elisa3 {
+  translation -1.165 0 0.11
+  rotation 0 -1 0 0
+  name "Elisa3-44"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 44
+  receiver_channel 44
+}
+DEF ELISA3-43 Elisa3 {
+  translation -1.165 0 0.055
+  rotation 0 -1 0 0
+  name "Elisa3-43"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 43
+  receiver_channel 43
+}
+DEF ELISA3-42 Elisa3 {
+  translation -1.165 0 0
+  rotation 0 -1 0 0
+  name "Elisa3-42"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 42
+  receiver_channel 42
+}
+DEF ELISA3-41 Elisa3 {
+  translation -1.165 0 -0.055
+  rotation 0 -1 0 0
+  name "Elisa3-41"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 41
+  receiver_channel 41
+}
+DEF ELISA3-40 Elisa3 {
+  translation -1.165 0 -0.11
+  rotation 0 -1 0 0
+  name "Elisa3-40"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 40
+  receiver_channel 40
+}
+DEF ELISA3-12 Elisa3 {
+  translation -1.11 0 -0.165
+  rotation 0 -1 0 0
+  name "Elisa3-12"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 12
+  receiver_channel 12
+}
+DEF ELISA3-13 Elisa3 {
+  translation -1.055 0 -0.165
+  rotation 0 -1 0 0
+  name "Elisa3-13"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 13
+  receiver_channel 13
+}
+DEF ELISA3-14 Elisa3 {
+  translation -1 0 -0.165
+  rotation 0 -1 0 0
+  name "Elisa3-14"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 14
+  receiver_channel 14
+}
+DEF ELISA3-15 Elisa3 {
+  translation -0.945 0 -0.165
+  rotation 0 -1 0 0
+  name "Elisa3-15"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 15
+  receiver_channel 15
+}
+DEF ELISA3-16 Elisa3 {
+  translation -0.89 0 -0.11
+  rotation 0 -1 0 0
+  name "Elisa3-16"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 16
+  receiver_channel 16
+}
+DEF ELISA3-17 Elisa3 {
+  translation -0.89 0 -0.055
+  rotation 0 -1 0 0
+  name "Elisa3-17"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 17
+  receiver_channel 17
+}
+DEF ELISA3-18 Elisa3 {
+  translation -0.89 0 0
+  rotation 0 -1 0 0
+  name "Elisa3-18"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 18
+  receiver_channel 18
+}
+DEF ELISA3-19 Elisa3 {
+  translation -0.89 0 0.055
+  rotation 0 -1 0 0
+  name "Elisa3-19"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 19
+  receiver_channel 19
+}
+DEF ELISA3-20 Elisa3 {
+  translation -0.89 0 0.11
+  rotation 0 -1 0 0
+  name "Elisa3-20"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 20
+  receiver_channel 20
+}
+DEF ELISA3-21 Elisa3 {
+  translation -0.945 0 0.11
+  rotation 0 -1 0 0
+  name "Elisa3-21"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 21
+  receiver_channel 21
+}
+DEF ELISA3-22 Elisa3 {
+  translation -1 0 0.11
+  rotation 0 -1 0 0
+  name "Elisa3-22"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 22
+  receiver_channel 22
+}
+DEF ELISA3-23 Elisa3 {
+  translation -1.055 0 0.11
+  rotation 0 -1 0 0
+  name "Elisa3-23"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 23
+  receiver_channel 23
+}
+DEF ELISA3-24 Elisa3 {
+  translation -1.11 0 0.11
+  rotation 0 -1 0 0
+  name "Elisa3-24"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 24
+  receiver_channel 24
+}
+DEF ELISA3-25 Elisa3 {
+  translation -1.11 0 -0.11
+  rotation 0 -1 0 0
+  name "Elisa3-25"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 25
+  receiver_channel 25
+}
+DEF ELISA3-26 Elisa3 {
+  translation -1.055 0 -0.11
+  rotation 0 -1 0 0
+  name "Elisa3-26"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 26
+  receiver_channel 26
+}
+DEF ELISA3-27 Elisa3 {
+  translation -1 0 -0.11
+  rotation 0 -1 0 0
+  name "Elisa3-27"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 27
+  receiver_channel 27
+}
+DEF ELISA3-28 Elisa3 {
+  translation -0.945 0 -0.11
+  rotation 0 -1 0 0
+  name "Elisa3-28"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 28
+  receiver_channel 28
+}
+DEF ELISA3-29 Elisa3 {
+  translation -0.945 0 -0.055
+  rotation 0 -1 0 0
+  name "Elisa3-29"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 29
+  receiver_channel 29
+}
+DEF ELISA3-30 Elisa3 {
+  translation -0.945 0 0
+  rotation 0 -1 0 0
+  name "Elisa3-30"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 30
+  receiver_channel 30
+}
+DEF ELISA3-31 Elisa3 {
+  translation -0.945 0 0.055
+  rotation 0 -1 0 0
+  name "Elisa3-31"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 31
+  receiver_channel 31
+}
+DEF ELISA3-32 Elisa3 {
+  translation -1 0 0.055
+  rotation 0 -1 0 0
+  name "Elisa3-32"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 32
+  receiver_channel 32
+}
+DEF ELISA3-33 Elisa3 {
+  translation -1.055 0 0.055
+  rotation 0 -1 0 0
+  name "Elisa3-33"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 33
+  receiver_channel 33
+}
+DEF ELISA3-34 Elisa3 {
+  translation -1.11 0 0.055
+  rotation 0 -1 0 0
+  name "Elisa3-34"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 34
+  receiver_channel 34
+}
+DEF ELISA3-35 Elisa3 {
+  translation -1.11 0 -0.055
+  rotation 0 -1 0 0
+  name "Elisa3-35"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 35
+  receiver_channel 35
+}
+DEF ELISA3-36 Elisa3 {
+  translation -1.055 0 -0.055
+  rotation 0 -1 0 0
+  name "Elisa3-36"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 36
+  receiver_channel 36
+}
+DEF ELISA3-37 Elisa3 {
+  translation -1 0 -0.055
+  rotation 0 -1 0 0
+  name "Elisa3-37"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 37
+  receiver_channel 37
+}
+DEF ELISA3-38 Elisa3 {
+  translation -1.055 0 0
+  rotation 0 -1 0 0
+  name "Elisa3-38"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 38
+  receiver_channel 38
+}
+DEF ELISA3-39 Elisa3 {
+  translation -1.11 0 0
+  rotation 0 -1 0 0
+  name "Elisa3-39"
+  controller "epuck_collision_avoidance"
+  controllerArgs [
+    "255"
+    "255"
+    "0"
+  ]
+  emitter_channel 39
+  receiver_channel 39
+}
+Robot {
+  children [
+    Emitter {
+    }
+    Receiver {
+      name "receiver-0"
+    }
+    Receiver {
+      name "receiver-1"
+    }
+    Receiver {
+      name "receiver-2"
+    }
+    Receiver {
+      name "receiver-3"
+    }
+    Receiver {
+      name "receiver-4"
+    }
+    Receiver {
+      name "receiver-5"
+    }
+    Receiver {
+      name "receiver-6"
+    }
+    Receiver {
+      name "receiver-7"
+    }
+    Receiver {
+      name "receiver-8"
+    }
+    Receiver {
+      name "receiver-9"
+    }
+    Receiver {
+      name "receiver-10"
+    }
+    Receiver {
+      name "receiver-11"
+    }
+    Receiver {
+      name "receiver-12"
+    }
+    Receiver {
+      name "receiver-13"
+    }
+    Receiver {
+      name "receiver-14"
+    }
+    Receiver {
+      name "receiver-15"
+    }
+    Receiver {
+      name "receiver-16"
+    }
+    Receiver {
+      name "receiver-17"
+    }
+    Receiver {
+      name "receiver-18"
+    }
+    Receiver {
+      name "receiver-19"
+    }
+    Receiver {
+      name "receiver-20"
+    }
+    Receiver {
+      name "receiver-21"
+    }
+    Receiver {
+      name "receiver-22"
+    }
+    Receiver {
+      name "receiver-23"
+    }
+    Receiver {
+      name "receiver-24"
+    }
+    Receiver {
+      name "receiver-25"
+    }
+    Receiver {
+      name "receiver-26"
+    }
+    Receiver {
+      name "receiver-27"
+    }
+    Receiver {
+      name "receiver-28"
+    }
+    Receiver {
+      name "receiver-29"
+    }
+    Receiver {
+      name "receiver-30"
+    }
+    Receiver {
+      name "receiver-31"
+    }
+    Receiver {
+      name "receiver-32"
+    }
+    Receiver {
+      name "receiver-33"
+    }
+    Receiver {
+      name "receiver-34"
+    }
+    Receiver {
+      name "receiver-35"
+    }
+    Receiver {
+      name "receiver-36"
+    }
+    Receiver {
+      name "receiver-37"
+    }
+    Receiver {
+      name "receiver-38"
+    }
+    Receiver {
+      name "receiver-39"
+    }
+    Receiver {
+      name "receiver-40"
+    }
+    Receiver {
+      name "receiver-41"
+    }
+    Receiver {
+      name "receiver-42"
+    }
+    Receiver {
+      name "receiver-43"
+    }
+    Receiver {
+      name "receiver-44"
+    }
+  ]
+  controller "<extern>"
+  supervisor TRUE
+}
