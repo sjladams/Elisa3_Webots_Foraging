@@ -228,6 +228,8 @@ class Agent:
         # else:
         #     print('we moved non random')
 
+        weighted_vecs = weighted_vecs/max(weights)
+
         # based on the pick option selection, pick direction based on stored weighted vectors
         if pick_option == 'max':
             max_index = np.argmax([np.linalg.norm(item) for item in weighted_vecs], axis=0)
